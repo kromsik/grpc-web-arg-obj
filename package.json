@@ -1,8 +1,9 @@
 {
   "name": "grpc-web-arg-obj",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Argument setter for grpc-web",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "test:coverage": "jest --config jestconfig.json --coverage",
@@ -15,6 +16,11 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "keywords": [
+    "grpc",
+    "grpc-web",
+    "arguments"
+  ],
   "files": [
     "lib/**/*"
   ],
