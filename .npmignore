@@ -1,0 +1,6 @@
+src
+coverage
+tsconfig.json
+.eslintrc.js
+.prettierrc
+.prettierignore

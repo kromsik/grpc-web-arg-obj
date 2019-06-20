@@ -1,0 +1,6 @@
+node_modules
+coverage
+build
+express/node_modules
+scripts
+.firebase
